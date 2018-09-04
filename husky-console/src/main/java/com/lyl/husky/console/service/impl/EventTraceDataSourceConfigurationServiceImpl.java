@@ -2,6 +2,8 @@ package com.lyl.husky.console.service.impl;
 
 import com.lyl.husky.console.domain.EventTraceDataSourceConfiguration;
 import com.lyl.husky.console.domain.EventTraceDataSourceConfigurations;
+import com.lyl.husky.console.domain.GlobalConfiguration;
+import com.lyl.husky.console.respository.ConfigurationsXmlRepository;
 import com.lyl.husky.console.service.EventTraceDataSourceConfigurationService;
 
 import java.util.Optional;
@@ -10,6 +12,8 @@ import java.util.Optional;
  * 事件追踪数据源配置服务实现类
  */
 public class EventTraceDataSourceConfigurationServiceImpl implements EventTraceDataSourceConfigurationService {
+
+    private ConfigurationsXmlRepository configurationsXmlRepository = new ConfigurationsXmlRepositoryImpl();
 
     @Override
     public EventTraceDataSourceConfigurations loadAll() {
@@ -39,5 +43,9 @@ public class EventTraceDataSourceConfigurationServiceImpl implements EventTraceD
     @Override
     public void delete(String name) {
 
+    }
+
+    private GlobalConfiguration loadGlobal(){
+        GlobalConfiguration result = con
     }
 }
