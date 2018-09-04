@@ -3,7 +3,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../husky/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../husky/husky-console/pom.xml" />
+        <option value="$PROJECT_DIR$/../husky/husky-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../husky/husky-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/../husky/husky-spring/pom.xml" />
       </list>
     </option>
   </component>

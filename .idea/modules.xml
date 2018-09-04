@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/husky.iml" filepath="$PROJECT_DIR$/husky.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../husky/husky-console/husky-console.iml" filepath="$PROJECT_DIR$/../husky/husky-console/husky-console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../husky/husky-core/husky-core.iml" filepath="$PROJECT_DIR$/../husky/husky-core/husky-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../husky/husky-lifecycle/husky-lifecycle.iml" filepath="$PROJECT_DIR$/../husky/husky-lifecycle/husky-lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../husky/husky-spring/husky-spring.iml" filepath="$PROJECT_DIR$/../husky/husky-spring/husky-spring.iml" />
     </modules>
   </component>
 </project>

@@ -2,15 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="husky" />
+        <module name="husky-console" />
+        <module name="husky-core" />
+        <module name="husky-lifecycle" />
+        <module name="husky-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="husky" target="1.5" />
+      <module name="husky-console" target="8" />
+      <module name="husky-core" target="1.7" />
+      <module name="husky-lifecycle" target="8" />
+      <module name="husky-spring" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

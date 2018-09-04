@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.lyl:husky-core:unknown">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../repository/com/lyl/husky-core/unknown/husky-core-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../repository/com/lyl/husky-core/unknown/husky-core-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../repository/com/lyl/husky-core/unknown/husky-core-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
