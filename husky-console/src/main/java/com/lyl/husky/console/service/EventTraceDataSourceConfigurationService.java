@@ -17,10 +17,9 @@
 
 package com.lyl.husky.console.service;
 
+import com.google.common.base.Optional;
 import com.lyl.husky.console.domain.EventTraceDataSourceConfiguration;
 import com.lyl.husky.console.domain.EventTraceDataSourceConfigurations;
-
-import java.util.Optional;
 
 /**
  * 事件追踪数据源配置服务.

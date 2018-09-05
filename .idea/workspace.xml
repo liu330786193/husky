@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f7c7302-155d-4b88-bc74-3a8fa30d75c8" name="Default" comment="" />
+    <list id="7d30a84c-577f-4990-9e1d-2e850359c507" name="ignore" comment="" />
+    <list default="true" id="8f7c7302-155d-4b88-bc74-3a8fa30d75c8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/exception/JobConsoleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/restful/RegistryCenterRestfulApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/util/HomeFolderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base/CoordinatorRegistryCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base/RegistryCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/reg/RegostruCemterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/husky-console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/husky-console.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/filter/GlobalConfigurationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/filter/GlobalConfigurationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl/AbstractXmlRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl/AbstractXmlRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl/ConfigurationsXmlRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl/ConfigurationsXmlRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/EventTraceDataSourceConfigurationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/EventTraceDataSourceConfigurationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/RegistryCenterConfigurationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/RegistryCenterConfigurationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/impl/EventTraceDataSourceConfigurationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/impl/EventTraceDataSourceConfigurationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/impl/RegistryCenterConfigurationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/impl/RegistryCenterConfigurationServiceImpl.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/husky-console/target/" />
@@ -25,10 +44,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GlobalConfigurationFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/filter/GlobalConfigurationFilter.java">
+        <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/filter/GlobalConfigurationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="257">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,31 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventTraceDataSourceConfigurationServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/impl/EventTraceDataSourceConfigurationServiceImpl.java">
+      <file leaf-file-name="RegistryCenterRestfulApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/restful/RegistryCenterRestfulApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventTraceDataSourceConfigurationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/EventTraceDataSourceConfigurationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="200">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,51 +67,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HusklyConsoleBootstrap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/HusklyConsoleBootstrap.java">
+      <file leaf-file-name="a.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/a.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistryCenterConfigurationServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/impl/RegistryCenterConfigurationServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurationsXmlRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/respository/ConfigurationsXmlRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/GlobalConfiguration.java">
+      <file leaf-file-name="RegostruCemterFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/reg/RegostruCemterFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
@@ -123,11 +88,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventTraceDataSourceConfigurations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfigurations.java">
+      <file leaf-file-name="CoordinatorRegistryCenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base/CoordinatorRegistryCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistryCenter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base/RegistryCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/husky-console/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventTraceDataSourceConfigurationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/EventTraceDataSourceConfigurationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventTraceDataSourceConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfiguration.java">
+      <file leaf-file-name="RegistryCenterConfigurationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/RegistryCenterConfigurationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="176">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,11 +139,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmlRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/respository/XmlRepository.java">
+      <file leaf-file-name="HusklyConsoleBootstrap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/HusklyConsoleBootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="550">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,12 +167,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../husky" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/..//////zuul" value="PREVIEW" />
+        <entry key="E://////zuul" value="PREVIEW" />
         <entry key="F:/capsule-maven" value="PREVIEW" />
       </map>
     </option>
@@ -187,29 +182,40 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/husky-console/pom.xml" />
         <option value="$PROJECT_DIR$/husky-spring/pom.xml" />
         <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/HusklyConsoleBootstrap.java" />
         <option value="$PROJECT_DIR$/husky-lifecycle/pom.xml" />
         <option value="$PROJECT_DIR$/husky-core/pom.xml" />
         <option value="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/restful/RestfulServer.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-core/pom.xml" />
-        <option value="$PROJECT_DIR$/../husky/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/restful/RestfulServer.java" />
-        <option value="$PROJECT_DIR$/../husky/pom.xml" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/pom.xml" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/RegistryCenterConfiguration.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/RegistryCenterConfigurations.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/RegistryCenterConfigurationService.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/impl/RegistryCenterConfigurationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/respository/XmlRepository.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/GlobalConfiguration.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfiguration.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfigurations.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/respository/ConfigurationsXmlRepository.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/EventTraceDataSourceConfigurationService.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/HusklyConsoleBootstrap.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/filter/GlobalConfigurationFilter.java" />
-        <option value="$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/impl/EventTraceDataSourceConfigurationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/husky-core/pom.xml" />
+        <option value="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/restful/RestfulServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/RegistryCenterConfiguration.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/RegistryCenterConfigurations.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/XmlRepository.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/GlobalConfiguration.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfiguration.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfigurations.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/ConfigurationsXmlRepository.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/HusklyConsoleBootstrap.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/util/HomeFolderUtils.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/exception/JobConsoleException.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl/AbstractXmlRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl/ConfigurationsXmlRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/impl/EventTraceDataSourceConfigurationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/impl/RegistryCenterConfigurationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/RegistryCenterConfigurationService.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/EventTraceDataSourceConfigurationService.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/filter/GlobalConfigurationFilter.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/restful.java" />
+        <option value="$PROJECT_DIR$/husky-console/pom.xml" />
+        <option value="$PROJECT_DIR$/husky-console/pom.xml" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/restful/restful.java" />
+        <option value="$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/restful/RegistryCenterRestfulApi.java" />
+        <option value="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/reg/RegostruCemterFactpru.java" />
+        <option value="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/reg/RegostruCemterFactory.java" />
+        <option value="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base/CoordinatorRegistryCenter.java" />
+        <option value="$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base/RegistryCenter.java" />
       </list>
     </option>
   </component>
@@ -252,8 +258,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="529" />
-    <option name="y" value="53" />
+    <option name="x" value="492" />
     <option name="width" value="1193" />
     <option name="height" value="958" />
   </component>
@@ -263,9 +268,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,7 +321,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="husky" type="b2602c69:ProjectViewProjectNode" />
@@ -346,7 +351,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="respository" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="husky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="husky" type="462c0819:PsiDirectoryNode" />
+              <item name="husky-console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="husky" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +373,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="console" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="husky" type="b2602c69:ProjectViewProjectNode" />
@@ -365,7 +380,9 @@
               <item name="husky-console" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="husky" type="b2602c69:ProjectViewProjectNode" />
@@ -401,6 +418,57 @@
             <path>
               <item name="husky" type="b2602c69:ProjectViewProjectNode" />
               <item name="husky" type="462c0819:PsiDirectoryNode" />
+              <item name="husky-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="husky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="husky" type="462c0819:PsiDirectoryNode" />
+              <item name="husky-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="husky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="husky" type="462c0819:PsiDirectoryNode" />
+              <item name="husky-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="husky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="husky" type="462c0819:PsiDirectoryNode" />
+              <item name="husky-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lifecycle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="husky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="husky" type="462c0819:PsiDirectoryNode" />
+              <item name="husky-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="husky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="husky" type="462c0819:PsiDirectoryNode" />
+              <item name="husky-lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lifecycle" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="husky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="husky" type="462c0819:PsiDirectoryNode" />
               <item name="husky-spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -412,7 +480,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/..///elastic-job-lite-dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -495,6 +563,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8f7c7302-155d-4b88-bc74-3a8fa30d75c8" name="Default" comment="" />
+      <changelist id="7d30a84c-577f-4990-9e1d-2e850359c507" name="ignore" comment="" />
       <created>1535820797946</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -504,15 +573,25 @@
       <workItem from="1535991042758" duration="258000" />
       <workItem from="1535991672631" duration="796000" />
       <workItem from="1535992484663" duration="3085000" />
-      <workItem from="1536073551481" duration="3927000" />
+      <workItem from="1536073551481" duration="4366000" />
+      <workItem from="1536077939768" duration="93000" />
+      <workItem from="1536159041790" duration="5237000" />
     </task>
+    <task id="LOCAL-00001" summary="- 添加xml配置类">
+      <created>1536078019883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536078019883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11253000" />
+    <option name="totallyTimeSpent" value="17022000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="731" y="0" width="1193" height="1047" extended-state="0" />
+    <frame x="493" y="-5" width="1193" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -530,7 +609,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33539277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34774935" />
       <window_info anchor="bottom" id="JProfiler" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -568,7 +647,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.2662586" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33539277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34774935" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -585,74 +664,47 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- 添加xml配置类" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 添加xml配置类" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../husky/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6578">
-          <caret line="299" column="35" selection-start-line="299" selection-start-column="35" selection-end-line="299" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/HusklyConsoleBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/resources/console/js/util/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/husky-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/a.java">
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/a.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-lifecycle/pom.xml">
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-spring/pom.xml">
+    <entry file="file://$PROJECT_DIR$/husky-spring/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/restful/RestfulServer.java">
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/restful/RestfulServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
@@ -662,87 +714,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/husky-console.iml">
+    <entry file="file://$PROJECT_DIR$/husky-console/husky-console.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/resources/assembly/assembly.xml">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/resources/assembly/assembly.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/resources/bin/start.bat">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/resources/bin/start.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/resources/conf/auth.properties">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/resources/conf/auth.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/resources/console/js/util/common.js">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/resources/console/js/util/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-spring/pom.xml">
+    <entry file="file://$PROJECT_DIR$/husky-spring/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/a.java">
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/a.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/projectlombok/lombok/1.16.4/lombok-1.16.4.jar!/lombok/extern/slf4j/Slf4j.class">
+    <entry file="jar://E:/repository/org/projectlombok/lombok/1.16.4/lombok-1.16.4.jar!/lombok/extern/slf4j/Slf4j.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
@@ -756,7 +808,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/restful/RestfulServer.java">
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/restful/RestfulServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
@@ -766,42 +818,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-lifecycle/pom.xml">
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/husky-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="263" column="25" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar!/javax/servlet/Filter.class">
+    <entry file="jar://E:/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar!/javax/servlet/Filter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/RegistryCenterConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/RegistryCenterConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -811,34 +856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/RegistryCenterConfigurations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/RegistryCenterConfigurationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/respository/XmlRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/GlobalConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/GlobalConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
@@ -848,9 +866,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="286">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -858,88 +876,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfigurations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/respository/ConfigurationsXmlRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/impl/RegistryCenterConfigurationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/HusklyConsoleBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/EventTraceDataSourceConfigurationService.java">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl.java" />
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/exception/JobConsoleException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl/AbstractXmlRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1245#1275#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/XmlRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/ConfigurationsXmlRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/util/HomeFolderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/filter/GlobalConfigurationFilter.java">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/respository/impl/ConfigurationsXmlRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="242">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/EventTraceDataSourceConfigurations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../husky/husky-console/src/main/java/com/lyl/husky/console/service/impl/EventTraceDataSourceConfigurationServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/impl/EventTraceDataSourceConfigurationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="1056">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/domain/RegistryCenterConfigurations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/impl/RegistryCenterConfigurationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/EventTraceDataSourceConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/HusklyConsoleBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/service/RegistryCenterConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/filter/GlobalConfigurationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-console/src/main/java/com/lyl/husky/console/restful/RegistryCenterRestfulApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/reg/RegostruCemterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base/CoordinatorRegistryCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/husky-lifecycle/src/main/java/com/lyl/husky/lifecycle/internal/base/RegistryCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>
