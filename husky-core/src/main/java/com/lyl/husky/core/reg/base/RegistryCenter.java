@@ -1,4 +1,7 @@
-package com.lyl.husky.lifecycle.internal.base;
+package com.lyl.husky.core.reg.base;
+
+import com.google.common.base.Strings;
+import sun.rmi.runtime.Log;
 
 /**
  * 注册中心
@@ -18,12 +21,12 @@ public interface RegistryCenter {
     /**
      * 获取注册数据
      */
-    void get(String key);
+    String get(String key);
 
     /**
      * 获取数据是否存在.
      */
-    void isExisted(String key);
+    boolean isExisted(String key);
 
     /**
      * 持久化注册数据.
@@ -43,7 +46,7 @@ public interface RegistryCenter {
     /**
      * 获取注册中心当前时间.
      */
-    void getRegistryCenterTime(String key);
+    long getRegistryCenterTime(String key);
 
     /**
      * 直接获取操作注册中心的原生客户端
