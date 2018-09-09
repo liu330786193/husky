@@ -1,6 +1,7 @@
 package com.lyl.husky.lifecycle.restful;
 
 import com.google.common.base.Joiner;
+import com.google.common.base.Optional;
 import com.sun.jersey.api.core.PackagesResourceConfig;
 import com.sun.jersey.spi.container.servlet.ServletContainer;
 import lombok.extern.slf4j.Slf4j;
@@ -14,7 +15,6 @@ import org.eclipse.jetty.util.resource.Resource;
 import javax.servlet.DispatcherType;
 import javax.servlet.Filter;
 import java.util.EnumSet;
-import java.util.Optional;
 
 @Slf4j
 public final class RestfulServer {
@@ -31,8 +31,8 @@ public final class RestfulServer {
     /**
      * 启动内嵌的RESTful服务器
      */
-    public void start(final String packages, final Optional<String> resourcePath){
-        start();
+    public void start(final String packages, final Optional<String> resourcePath) throws Exception {
+        start(packages, resourcePath, Optional.of("/api"));
     }
 
     /**
