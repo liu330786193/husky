@@ -5,6 +5,9 @@ import com.lyl.husky.console.domain.EventTraceDataSourceConfiguration;
 import com.lyl.husky.console.service.EventTraceDataSourceConfigurationService;
 import com.lyl.husky.console.service.impl.EventTraceDataSourceConfigurationServiceImpl;
 import com.lyl.husky.console.util.SessionEventTraceDataSourceConfiguration;
+import com.lyl.husky.core.event.rdb.JobEventRdbSearch;
+import com.lyl.husky.core.event.type.JobExecutionEvent;
+import com.lyl.husky.core.event.type.JobStatusTraceEvent;
 import org.apache.commons.dbcp.BasicDataSource;
 
 import javax.sql.DataSource;
@@ -17,6 +20,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;

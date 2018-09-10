@@ -1,6 +1,7 @@
 package com.lyl.husky.core.event.rdb;
 
 import com.google.common.base.CaseFormat;
+import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
 import com.lyl.husky.core.event.type.JobExecutionEvent;
 import lombok.Getter;
@@ -11,11 +12,10 @@ import org.apache.commons.lang3.text.StrBuilder;
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.locks.Condition;
 
 /**
  * 运行痕迹时间数据库检索
@@ -50,7 +50,7 @@ public class JobEventRdbSearch {
         return result;
     }
 
-    private PreparedStatement createDataPreparedStatement(final Connection conn, final String tableName, final List<String> tableFields, final Condition condition) {
+    private PreparedStatement createDataPreparedStatement(final Connection conn, final String tableName, final Collection<String> tableFields, final Condition condition) {
         String sql = buildDataSql(tableName, tableFields, condition);
     }
 
@@ -64,10 +64,37 @@ public class JobEventRdbSearch {
         return sqlBuilder.toString();
     }
 
-    private String buildLimit(int page, int perPage) {
+    private String buildLimit(final int page, final int perPage) {
+        StringBuilder sqlBuilder = new StringBuilder();
+        if (page > 0 && perPage > 0){
+            sqlBuilder.append(" LIMIT ").append((page - 1) * perPage).append(",").append(perPage);
+        } else {
+            sqlBuilder.append(" LIMIT ").append(Condition.DEFAULT_PAGE_SIZE);
+        }
+        return sqlBuilder.toString();
     }
 
-    private String buildOrder(List<String> tableFields, String sort, String order) {
+    private String buildOrder(final List<String> tableFields, final String sortName, final String sortOrder) {
+        if (Strings.isNullOrEmpty(sortName)){
+            return "";
+        }
+        String lowerUnderscore = CaseFormat.LOWER_CAMEL.to(CaseFormat.LOWER_UNDERSCORE,sortName);
+        if (!tableFields.contains(lowerUnderscore)){
+            return "";
+        }
+        StringBuilder sqlBuilder = new StringBuilder();
+        sqlBuilder.append(" ORDER BY ").append(lowerUnderscore);
+        switch (sortOrder.toUpperCase()){
+            case "ASC":
+                sqlBuilder.append(" ASC");
+                break;
+            case "DESC":
+                sqlBuilder.append(" DESC");
+                break;
+            default :
+                sqlBuilder.append(" ASC");
+        }
+        return sqlBuilder.toString();
     }
 
     private String buildWhere(String tableName, List<String> tableFields, Condition condition) {
@@ -112,7 +139,19 @@ public class JobEventRdbSearch {
         return sqlBuilder.toString();
     }
 
-    private Integer getEventCount(final String tableJobStatusTraceLog, final List<String> fieldsJobStatusTraceLog, final Condition condition) {
+    private int getEventCount(final String tableName, final Collection<String> tableFields, final Condition condition) {
+        int result = 0;
+        try {
+            Connection conn = dataSource.getConnection();
+            PreparedStatement preparedStatement = createDataPreparedStatement(conn, tableName, tableFields, condition);
+            ResultSet resultSet = preparedStatement.executeQuery(){
+                resultSet.next();
+                result = resultSet.getInt(1);
+            } catch (final SQLException ex){
+                log.error("Fetch EventCount from DB error:", ex);
+            }
+
+        }
     }
 
     /**
