@@ -12,8 +12,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Properties;
 
-import static org.apache.commons.codec.binary.Base64.*;
-
 @Slf4j
 public final class WwwAuthFilter implements Filter {
 
@@ -53,7 +51,7 @@ public final class WwwAuthFilter implements Filter {
     @Override
     public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain) throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
-        HttpServletResponse httpResponse = (HttpServletResponse) request;
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
         String authorization = httpRequest.getHeader("authorization");
         if (null != authorization && authorization.length() > AUTH_PREFIX.length()){
             authorization = authorization.substring(AUTH_PREFIX.length(), authorization.length());
