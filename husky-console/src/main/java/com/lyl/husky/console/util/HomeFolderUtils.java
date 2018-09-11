@@ -15,7 +15,7 @@ public class HomeFolderUtils {
 
     private static final String FILE_SEPARATOR = System.getProperty("file.separator");
 
-    private static final String CONSOLE_ROOT_FOLDER = System.getProperty(".elastic-job-console");
+    private static final String CONSOLE_ROOT_FOLDER = ".elastic-job-console";
 
     /**
      * 获取用户文件
@@ -34,8 +34,7 @@ public class HomeFolderUtils {
         }
     }
 
-    private static String getHomeFolder() {
-        return String.format("%s%s%s%s", USER_HOME, FILE_SEPARATOR, CONSOLE_ROOT_FOLDER, FILE_SEPARATOR);
+    private static String getHomeFolder() { return String.format("%s%s%s%s", USER_HOME, FILE_SEPARATOR, CONSOLE_ROOT_FOLDER, FILE_SEPARATOR);
     }
 
 }

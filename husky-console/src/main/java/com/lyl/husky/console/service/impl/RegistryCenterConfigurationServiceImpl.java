@@ -17,12 +17,26 @@ public class RegistryCenterConfigurationServiceImpl implements RegistryCenterCon
 
     @Override
     public RegistryCenterConfigurations loadAll() {
-        return null;
+        return loadGlobal().getRegistryCenterConfigurations();
     }
 
     @Override
     public RegistryCenterConfiguration load(String name) {
+        GlobalConfiguration configs = loadGlobal();
+        RegistryCenterConfiguration result = find(name, configs.getRegistryCenterConfigurations());
+        setActivated(configs, result);
         return null;
+    }
+
+    private void setActivated(GlobalConfiguration configs, RegistryCenterConfiguration toBeConnectedConfig) {
+        RegistryCenterConfiguration activatedConfig = findActivatedRegistryCenterConfiguration(configs);
+        if (!toBeConnectedConfig.equals(activatedConfig)){
+            if (null != activatedConfig){
+                activatedConfig.setActivated(false);
+            }
+            toBeConnectedConfig.setActivated(true);
+            configurationsXmlRepository.save(configs);
+        }
     }
 
     @Override
