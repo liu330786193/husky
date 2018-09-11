@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.h2database:h2:1.4.184">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../repository/com/h2database/h2/1.4.184/h2-1.4.184.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../xiaomai-server/E:/repository/com/h2database/h2/1.4.184/h2-1.4.184.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../repository/com/h2database/h2/1.4.184/h2-1.4.184-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../xiaomai-server/E:/repository/com/h2database/h2/1.4.184/h2-1.4.184-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../repository/com/h2database/h2/1.4.184/h2-1.4.184-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../xiaomai-server/E:/repository/com/h2database/h2/1.4.184/h2-1.4.184-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
