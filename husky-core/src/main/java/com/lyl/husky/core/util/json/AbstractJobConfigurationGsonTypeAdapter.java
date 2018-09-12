@@ -12,7 +12,7 @@ import com.lyl.husky.core.config.JobTypeConfiguration;
 import com.lyl.husky.core.config.dataflow.DataflowJobConfiguration;
 import com.lyl.husky.core.config.script.ScriptJobConfiguration;
 import com.lyl.husky.core.config.simple.SimpleJobConfiguration;
-import com.lyl.husky.core.handler.JobProperties;
+import com.lyl.husky.core.executor.handler.JobProperties;
 
 import java.io.IOException;
 import java.util.HashMap;

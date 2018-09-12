@@ -2,6 +2,7 @@ package com.lyl.husky.core.event.type;
 
 
 import com.lyl.husky.core.context.ExecutionType;
+import com.lyl.husky.core.event.JobEvent;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -13,7 +14,7 @@ import java.util.UUID;
 @Getter
 @AllArgsConstructor
 @RequiredArgsConstructor
-public class JobStatusTraceEvent {
+public final class JobStatusTraceEvent implements JobEvent {
 
     private String id = UUID.randomUUID().toString();
     private final String jobName;

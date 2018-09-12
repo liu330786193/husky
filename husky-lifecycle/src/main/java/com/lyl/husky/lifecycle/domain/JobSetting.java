@@ -1,6 +1,6 @@
 package com.lyl.husky.lifecycle.domain;
 
-import com.lyl.husky.core.handler.JobProperties;
+import com.lyl.husky.core.executor.handler.JobProperties;
 import lombok.Data;
 
 import java.io.Serializable;

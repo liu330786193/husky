@@ -1,6 +1,6 @@
-package com.lyl.husky.core.handler.impl;
+package com.lyl.husky.core.executor.handler.impl;
 
-import com.lyl.husky.core.handler.JobExceptionHandler;
+import com.lyl.husky.core.executor.handler.JobExceptionHandler;
 import com.lyl.husky.core.util.concurrent.ExecutorServiceObject;
 import lombok.extern.slf4j.Slf4j;
 

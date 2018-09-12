@@ -1,7 +1,7 @@
-package com.lyl.husky.core.handler.impl;
+package com.lyl.husky.core.executor.handler.impl;
 
 
-import com.lyl.husky.core.handler.ExecutorServiceHandler;
+import com.lyl.husky.core.executor.handler.ExecutorServiceHandler;
 import com.lyl.husky.core.util.concurrent.ExecutorServiceObject;
 
 import java.util.concurrent.ExecutorService;

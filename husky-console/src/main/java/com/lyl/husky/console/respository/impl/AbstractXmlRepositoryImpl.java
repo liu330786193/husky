@@ -24,6 +24,7 @@ public abstract class AbstractXmlRepositoryImpl<E> implements XmlRepository<E> {
     protected AbstractXmlRepositoryImpl(final String fileName, final Class<E> clazz){
         file = new File(HomeFolderUtils.getFilePathInHomeFolder(fileName));
         this.clazz = clazz;
+        HomeFolderUtils.createHomeFolderIfNotExisted();
         try {
             jaxbContext = JAXBContext.newInstance(clazz);
         } catch (final JAXBException ex){

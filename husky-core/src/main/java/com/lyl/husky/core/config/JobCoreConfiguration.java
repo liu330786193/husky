@@ -2,7 +2,7 @@ package com.lyl.husky.core.config;
 
 import com.google.common.base.Preconditions;
 import com.google.common.base.Strings;
-import com.lyl.husky.core.handler.JobProperties;
+import com.lyl.husky.core.executor.handler.JobProperties;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
