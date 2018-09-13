@@ -1,6 +1,5 @@
 package com.lyl.husky.core.executor;
 
-import com.google.gson.TypeAdapter;
 import com.lyl.husky.core.api.ShardingContext;
 import com.lyl.husky.core.config.JobRootConfiguration;
 import com.lyl.husky.core.event.type.JobExecutionEvent;
@@ -9,12 +8,12 @@ import com.lyl.husky.core.exception.ExceptionUtil;
 import com.lyl.husky.core.exception.JobExecutionEnvironmentException;
 import com.lyl.husky.core.exception.JobSystemException;
 import com.lyl.husky.core.executor.handler.ExecutorServiceHandler;
+import com.lyl.husky.core.executor.handler.ExecutorServiceHandlerRegistry;
 import com.lyl.husky.core.executor.handler.JobExceptionHandler;
 import com.lyl.husky.core.executor.handler.JobProperties;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import org.quartz.JobExecutionException;
 
 import java.util.Collection;
 import java.util.Map;
