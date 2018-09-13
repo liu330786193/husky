@@ -57,7 +57,7 @@ public interface JobFacade {
      * 清除任务被错过执行的标记
      * @param shardingItems 需要清除错误执行的任务分片项
      */
-    void clearMisFire(Collection<Integer> shardingItems);
+    void clearMisfire(Collection<Integer> shardingItems);
 
     /**
      * 判断作业是否需要执行错误的任务
@@ -102,6 +102,6 @@ public interface JobFacade {
      * @param state
      * @param message
      */
-    void postJobStausTraceEvent(String taskId, JobStatusTraceEvent.State state, String message);
+    void postJobStatusTraceEvent(String taskId, JobStatusTraceEvent.State state, String message);
 
 }

@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutorService;
 @Slf4j
 public final class DefaultJobExceptionHandler implements JobExceptionHandler {
     @Override
-    public ExecutorService handlerException(String jobName, Throwable cause) {
+    public ExecutorService handleException(String jobName, Throwable cause) {
         return new ExecutorServiceObject("inner-job-" + jobName, Runtime.getRuntime().availableProcessors() * 2).createExecutorService();
 
     }

@@ -10,6 +10,6 @@ public interface JobExceptionHandler {
     /**
      * 处理异常处理器
      */
-    ExecutorService handlerException(String jobName, Throwable cause);
+    ExecutorService handleException(String jobName, Throwable cause);
 
 }
