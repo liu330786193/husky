@@ -1,5 +1,6 @@
 package com.lyl.husky.core.internal.server;
 
+import com.lyl.husky.core.internal.schedule.JobRegistry;
 import com.lyl.husky.core.internal.storage.JobNodePath;
 import com.lyl.husky.core.util.env.IpUtils;
 
@@ -34,7 +35,11 @@ public final class ServerNode {
      * 判断给定路径是否为本地作业服务器路径
      */
     public boolean isLocalServerPath(final String path){
-        return path.equals(jobNodePath.getFullPath(String.format(SERVERS, JobRe)))
+        return path.equals(jobNodePath.getFullPath(String.format(SERVERS, JobRegistry.getInstance().getJobInstance(jobName).getIp())));
+    }
+
+    public String getServerNode(final String ip){
+        return String.format(SERVERS, ip);
     }
 
 }
