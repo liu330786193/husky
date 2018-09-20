@@ -66,7 +66,7 @@ public final class ServerService {
      * @param ip
      * @return
      */
-    private boolean isEnableServer(String ip) {
+    public boolean isEnableServer(String ip) {
         return !ServerStatus.DISABLED.name().equals(jobNodeStorage.getJobNodeData(serverNode.getServerNode(ip)));
     }
 
