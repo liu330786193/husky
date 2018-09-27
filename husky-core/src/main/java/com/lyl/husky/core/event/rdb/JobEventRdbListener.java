@@ -1,5 +1,6 @@
 package com.lyl.husky.core.event.rdb;
 
+import com.lyl.husky.core.event.JobEventListener;
 import com.lyl.husky.core.event.type.JobExecutionEvent;
 import com.lyl.husky.core.event.type.JobStatusTraceEvent;
 
@@ -11,7 +12,8 @@ import java.sql.SQLException;
  * @Description 运行痕迹事件数据库监听器.
  * @Date 2018/9/27 下午6:16
  */
-public final class JobEventRdbListener extends JobEventRdbConfiguration{
+public final class JobEventRdbListener extends JobEventRdbIdentity implements JobEventListener {
+
     private final JobEventRdbStorage repository;
 
     public JobEventRdbListener(final DataSource dataSource) throws SQLException {

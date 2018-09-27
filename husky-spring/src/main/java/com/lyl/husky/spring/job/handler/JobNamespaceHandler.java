@@ -1,5 +1,8 @@
 package com.lyl.husky.spring.job.handler;
 
+import com.lyl.husky.spring.job.parser.dataflow.DataflowJobBeanDefinitionParser;
+import com.lyl.husky.spring.job.parser.script.ScriptJobBeanDefinitionParser;
+import com.lyl.husky.spring.job.parser.simple.SimpleJobBeanDefinitionParser;
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 
 /**
@@ -10,6 +13,8 @@ import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 public final class JobNamespaceHandler extends NamespaceHandlerSupport {
     @Override
     public void init() {
-        registerBeanDefinitionParser("simple", new SimpleJobBeanDefinitionParser);
+        registerBeanDefinitionParser("simple", new SimpleJobBeanDefinitionParser());
+        registerBeanDefinitionParser("dataflow", new DataflowJobBeanDefinitionParser());
+        registerBeanDefinitionParser("script", new ScriptJobBeanDefinitionParser());
     }
 }

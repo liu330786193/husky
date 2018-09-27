@@ -27,7 +27,7 @@ public final class JobStatusTraceEvent implements JobEvent {
     private final String shardingItems;
     private final State state;
     private final String message;
-    private Date creation = new Date();
+    private Date creationTime = new Date();
 
     public enum State {
         TASK_STAGING,
