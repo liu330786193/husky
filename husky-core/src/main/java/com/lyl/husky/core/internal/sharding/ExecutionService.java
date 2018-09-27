@@ -1,16 +1,15 @@
-package com.lyl.husky.core.internal.schedule;
+package com.lyl.husky.core.internal.sharding;
 
 import com.lyl.husky.core.config.LiteJobConfiguration;
 import com.lyl.husky.core.executor.ShardingContexts;
 import com.lyl.husky.core.internal.config.ConfigurationService;
+import com.lyl.husky.core.internal.schedule.JobRegistry;
 import com.lyl.husky.core.internal.storage.JobNodeStorage;
 import com.lyl.husky.core.reg.base.CoordinatorRegistryCenter;
 
-import java.sql.Ref;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
 
 /**
  * 执行作业的服务
@@ -45,7 +44,7 @@ public final class ExecutionService {
     /**
      * 注册作业完成信息
      */
-    public void registerJobCompleterd(final ShardingContexts shardingContexts){
+    public void registerJobCompleted(final ShardingContexts shardingContexts){
         JobRegistry.getInstance().setJobRunning(jobName, false);
         if (!configService.load(true).isMonitorExecution()){
             return;
@@ -111,7 +110,7 @@ public final class ExecutionService {
     /**
      * 如果当前分片项仍在运行则设置任务被错误执行的标记
      */
-    public boolean misfireIfHashRunningItems(final Collection<Integer> items){
+    public boolean misfireIfHasRunningItems(final Collection<Integer> items){
         if (!hasRunningItems(items)){
             return false;
         }
@@ -119,7 +118,7 @@ public final class ExecutionService {
         return true;
     }
 
-    private void setMisfire(Collection<Integer> items) {
+    public void setMisfire(Collection<Integer> items) {
         for (int each : items){
             jobNodeStorage.createJobNodeIfNeeded(ShardingNode.getMisfireNode(each));
         }

@@ -8,7 +8,7 @@ public final class TimeService {
     /**
      * 获取当前时间的毫秒数
      */
-    public long getCurrentmills(){
+    public long getCurrentMillis(){
         return System.currentTimeMillis();
     }
 

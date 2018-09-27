@@ -110,7 +110,7 @@ public class JobRegistry {
     /**
      * 设置当前分片总数
      */
-    public void setCurrentShardingTotalCountMap(final String jobName, final int currentShardingTotalCount) {
+    public void setCurrentShardingTotalCount(final String jobName, final int currentShardingTotalCount) {
         currentShardingTotalCountMap.put(jobName, currentShardingTotalCount);
     }
 

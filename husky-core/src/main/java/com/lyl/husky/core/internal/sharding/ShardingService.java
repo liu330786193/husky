@@ -6,9 +6,7 @@ import com.lyl.husky.core.internal.config.ConfigurationService;
 import com.lyl.husky.core.internal.election.LeaderService;
 import com.lyl.husky.core.internal.instance.InstanceNode;
 import com.lyl.husky.core.internal.instance.InstanceService;
-import com.lyl.husky.core.internal.schedule.ExecutionService;
 import com.lyl.husky.core.internal.schedule.JobRegistry;
-import com.lyl.husky.core.internal.schedule.ShardingNode;
 import com.lyl.husky.core.internal.server.ServerService;
 import com.lyl.husky.core.internal.storage.JobNodePath;
 import com.lyl.husky.core.internal.storage.JobNodeStorage;
@@ -82,7 +80,7 @@ public final class ShardingService {
 
     }
 
-    private boolean isNeedSharding() {
+    public boolean isNeedSharding() {
         return jobNodeStorage.isJobNodeExisted(ShardingNode.NECESSARY);
     }
 

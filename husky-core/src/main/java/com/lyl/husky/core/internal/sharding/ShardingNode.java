@@ -1,4 +1,4 @@
-package com.lyl.husky.core.internal.schedule;
+package com.lyl.husky.core.internal.sharding;
 
 import com.lyl.husky.core.internal.election.LeaderNode;
 import com.lyl.husky.core.internal.storage.JobNodePath;
@@ -48,7 +48,7 @@ public final class ShardingNode {
         return String.format(RUNNING, item);
     }
 
-    static String getMisfireNode(final int item) {
+    public static String getMisfireNode(final int item) {
         return String.format(MISFIRE, item);
     }
 

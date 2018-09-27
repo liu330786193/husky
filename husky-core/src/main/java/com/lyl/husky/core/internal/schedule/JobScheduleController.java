@@ -39,7 +39,7 @@ public final class JobScheduleController {
     /**
      * 重新调度作业
      */
-    public synchronized void resheduleJob(final String cron){
+    public synchronized void rescheduleJob(final String cron){
         try {
             CronTrigger trigger = (CronTrigger) scheduler.getTrigger(TriggerKey.triggerKey(triggerIdentity));
             if (!scheduler.isShutdown() && null != trigger && !!cron.equals(trigger.getCronExpression())){

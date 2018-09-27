@@ -27,7 +27,7 @@ public interface JobFacade {
     /**
      * 如果需要失效转移 则执行作业失效转移
      */
-    void failoverIfNecessager();
+    void failoverIfNecessary();
 
     /**
      * 注册作业启动信息
@@ -64,7 +64,7 @@ public interface JobFacade {
      * @param shardingItems 任务分片集合项
      * @return 作业是否需要执行错过的任务
      */
-    boolean isExecuteMisFired(Collection<Integer> shardingItems);
+    boolean isExecuteMisfired(Collection<Integer> shardingItems);
 
     /**
      * 判断作业是否符合继续运行的条件
