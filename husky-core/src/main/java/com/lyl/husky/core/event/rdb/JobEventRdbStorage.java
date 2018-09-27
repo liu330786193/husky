@@ -49,7 +49,27 @@ public final class JobEventRdbStorage {
         createTaskIdIndexIfNeeded(conn, TABLE_JOB_STATUS_TRACE_LOG, TASK_ID_STATE_INDEX);
     }
 
-    private void createTaskIdIndexIfNeeded(Connection conn, String tableJobStatusTraceLog, String taskIdStateIndex) {
+    private void createTaskIdIndexIfNeeded(final Connection conn, final String tableName, final String indexName) throws SQLException {
+        DatabaseMetaData dbMetaData = conn.getMetaData();
+        try (ResultSet resultSet = dbMetaData.getIndexInfo(null, null, tableName, false, false)){
+            boolean hasTaskIdIndex = false;
+            while (resultSet.next()){
+                if (resultSet.next()){
+                    if (indexName.equals(resultSet.getString("INDEX_NAME"))){
+                        hasTaskIdIndex = true;
+                    }
+                }
+            }
+            if (!hasTaskIdIndex){
+                createTaskIdAndStateIndex(conn, tableName);
+            }
+
+        }
+    }
+
+    private void createTaskIdAndStateIndex(Connection conn, String tableName) {
+
+
     }
 
     private void createJobExecutionTable(Connection conn) throws SQLException {
