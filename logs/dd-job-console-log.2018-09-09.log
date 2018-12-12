@@ -1,0 +1,5 @@
+[INFO ] 2018-09-09 18:08:35,822 --main-- [com.lyl.husky.lifecycle.restful.RestfulServer] Elastic Job: Start RESTful server 
+[INFO ] 2018-09-09 18:08:35,872 --main-- [org.eclipse.jetty.server.Server] jetty-8.1.19.v20160209 
+[WARN ] 2018-09-09 18:08:36,173 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-09 18:08:36,174 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[INFO ] 2018-09-09 18:08:36,295 --main-- [org.eclipse.jetty.server.AbstractConnector] Started SelectChannelConnector@0.0.0.0:8899 

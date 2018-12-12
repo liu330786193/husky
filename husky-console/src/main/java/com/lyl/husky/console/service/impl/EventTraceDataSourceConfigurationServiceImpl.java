@@ -78,7 +78,7 @@ public class EventTraceDataSourceConfigurationServiceImpl implements EventTraceD
         GlobalConfiguration configs = loadGlobal();
         EventTraceDataSourceConfiguration toBeRemovedConfig = find(name, configs.getEventTraceDataSourceConfigurations());
         if (null != toBeRemovedConfig){
-            configs.getEventTraceDataSourceConfigurations().getEventTraceDataSourceConfigurationSet();
+            configs.getEventTraceDataSourceConfigurations().getEventTraceDataSourceConfigurationSet().remove(toBeRemovedConfig);
             configurationsXmlRepository.save(configs);
         }
     }

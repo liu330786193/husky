@@ -1,0 +1,10 @@
+[WARN ] 2018-09-10 23:27:30,937 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-10 23:27:30,937 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-10 23:31:59,690 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-10 23:31:59,690 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-10 23:32:13,119 --qtp1276261147-19-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: / - (java.lang.ClassCastException) org.eclipse.jetty.server.Request cannot be cast to javax.servlet.http.HttpServletResponse 
+[WARN ] 2018-09-10 23:55:17,478 --qtp1276261147-20-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: / - (java.lang.ClassCastException) org.eclipse.jetty.server.Request cannot be cast to javax.servlet.http.HttpServletResponse 
+[WARN ] 2018-09-10 23:55:55,387 --qtp1276261147-19-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: / - (java.lang.ClassCastException) org.eclipse.jetty.server.Request cannot be cast to javax.servlet.http.HttpServletResponse 
+[WARN ] 2018-09-10 23:57:39,325 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-10 23:57:40,015 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-10 23:58:39,285 --qtp1276261147-20-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /index.html - (java.lang.ClassCastException) org.eclipse.jetty.server.Request cannot be cast to javax.servlet.http.HttpServletResponse 

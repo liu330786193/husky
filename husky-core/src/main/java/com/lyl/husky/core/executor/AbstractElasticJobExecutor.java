@@ -100,11 +100,11 @@ public abstract class AbstractElasticJobExecutor {
             jobExceptionHandler.handleException(jobName, cause);
         }
         execute(shardingContexts, JobExecutionEvent.ExecutionSource.NORMAL_TRIGGER);
-        while (jobFacade.isExecuteMisFired(shardingContexts.getShardingItemParameters().keySet())){
+        while (jobFacade.isExecuteMisfired(shardingContexts.getShardingItemParameters().keySet())){
             jobFacade.clearMisfire(shardingContexts.getShardingItemParameters().keySet());
             execute(shardingContexts, JobExecutionEvent.ExecutionSource.MISFIRE);
         }
-        jobFacade.failoverIfNecessager();
+        jobFacade.failoverIfNecessary();
         try {
             jobFacade.afterJobExecuted(shardingContexts);
         } catch (final Throwable cause){

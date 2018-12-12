@@ -1,0 +1,51 @@
+[WARN ] 2018-09-12 21:01:53,483 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:01:53,484 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:02:28,938 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:28,944 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:28,945 --qtp1276261147-27-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:28,960 --qtp1276261147-31-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:29,005 --qtp1276261147-31-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:29,008 --qtp1276261147-29-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:39,503 --qtp1276261147-27-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:39,504 --qtp1276261147-31-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:39,580 --qtp1276261147-31-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:39,582 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,454 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,457 --qtp1276261147-27-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,531 --qtp1276261147-27-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,535 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,623 --qtp1276261147-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,626 --qtp1276261147-31-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,730 --qtp1276261147-31-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,733 --qtp1276261147-27-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,818 --qtp1276261147-29-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,821 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,880 --qtp1276261147-29-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:42,882 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:43,012 --qtp1276261147-31-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:43,018 --qtp1276261147-27-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:43,071 --qtp1276261147-27-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:02:43,074 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-12 21:10:20,990 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:10:20,991 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:11:12,380 --qtp1276261147-20-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\.elastic-job-console\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-12 21:11:31,708 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\.elastic-job-console\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-12 21:15:32,275 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:15:32,276 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:16:03,989 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\.elastic-job-console\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-12 21:22:26,328 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:22:26,329 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:25:51,496 --qtp1279271200-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\.elastic-job-console\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-12 21:29:15,603 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:29:15,603 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-12 21:30:01,503 --qtp1279271200-28-- [org.apache.curator.utils.ZKPaths] The version of ZooKeeper being used doesn't support Container nodes. CreateMode.PERSISTENT will be used instead. 
+[WARN ] 2018-09-12 21:35:59,107 --qtp1279271200-19-EventThread-- [org.apache.curator.ConnectionState] Session expired event received 
+[WARN ] 2018-09-12 21:37:32,220 --qtp1279271200-19-EventThread-- [org.apache.curator.ConnectionState] Session expired event received 

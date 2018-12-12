@@ -1,6 +1,5 @@
 package com.lyl.husky.core.internal.config;
 
-import com.apple.eawt.AppEvent;
 import com.lyl.husky.core.internal.listener.AbstractJobListener;
 import com.lyl.husky.core.internal.listener.AbstractListenerManager;
 import com.lyl.husky.core.internal.schedule.JobRegistry;

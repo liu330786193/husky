@@ -17,7 +17,7 @@
 
 package com.lyl.husky.lifecycle.restful;
 
-import io.elasticjob.lite.exception.ExceptionUtil;
+import com.lyl.husky.core.exception.ExceptionUtil;
 
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;

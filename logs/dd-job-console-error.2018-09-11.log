@@ -1,0 +1,79 @@
+[WARN ] 2018-09-11 00:00:35,191 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-11 00:00:35,192 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-11 00:00:52,946 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-11 00:00:52,946 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-11 00:01:14,967 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:01:14,969 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:01:14,970 --qtp1276261147-23-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:01:14,979 --qtp1276261147-29-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:01:20,187 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:01:20,189 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:05:15,096 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:05:15,100 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:05:16,492 --qtp1276261147-23-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:05:16,493 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:08:55,561 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:08:57,080 --qtp1276261147-23-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:10:54,634 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:10:55,192 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:18:16,915 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-11 00:18:16,916 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-11 00:18:47,352 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:18:48,744 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:18:49,260 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:18:49,458 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:19:02,739 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:19:03,754 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:23:39,796 --qtp1276261147-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:26:30,995 --qtp1276261147-23-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/data-source - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:26:31,215 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:31,217 --qtp1276261147-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:33,213 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:33,216 --qtp1276261147-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:36,825 --qtp1276261147-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:37,031 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:37,229 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:37,907 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:38,043 --qtp1276261147-23-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:38,086 --qtp1276261147-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:38,214 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:38,354 --qtp1276261147-23-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:26:54,095 --qtp1276261147-28-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:28:26,564 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-11 00:28:26,565 --main-- [com.lyl.husky.lifecycle.security.WwwAuthFilter] Cannot found auth config file, use default auth config 
+[WARN ] 2018-09-11 00:30:00,895 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:31:06,554 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:31:06,763 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:31:06,918 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:31:54,055 --qtp1276261147-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (com.lyl.husky.console.exception.JobConsoleException) javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: C:\Users\lyl\null\Configurations.xml (系统找不到指定的路径。)] 
+[WARN ] 2018-09-11 00:32:16,429 --qtp1276261147-22-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:32:16,679 --qtp1276261147-25-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
+[WARN ] 2018-09-11 00:32:16,926 --qtp1276261147-24-- [org.eclipse.jetty.servlet.ServletHandler] Error Processing URI: /api/registry-center - (java.lang.NullPointerException) null 
